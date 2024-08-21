@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php">
+  <label>Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required maxlength="25"><br><br>
+
+  <label>Email:</label>
+  <input type="text" id="email" name="email" value="test@example.com" required autofocus><br><br>
+
+  <label>Password:</label>
+  <input type="password" name="password" placeholder="Enter your password" minlength="6" required><br><br>
+
+  <label>Category</label><br>
+  <select id="Category" name="Category" required>
+    <option value="Student">Student</option>
+    <option value="Employee">Employee</option>
+    <option value="Freelancer" selected>Freelancer</option>
+  </select><br><br>
+
+  <label for="date">Event date:</label><br>
+  <input type="date" name="event-date" id="event-date" required><br><br>
+
+  <label>Tickets</label><br>
+  <input type="radio" name="button" id="ticket-1">1 ticket<br>
+  <input type="radio" name="button" id="ticket-2" checked>2 ticket<br>
+  <input type="radio" name="button" id="ticket-3">3 ticket<br><br>
+  <label>Payment</label><br>
+  <input type="checkbox" id="payment" required>Online payment<br><br>
+
+  <label>Notes</label><br>
+  <textarea id="notes" name="Notes" placeholder="Type here"></textarea><br>
+  <button>Submit</button>
+</form>
+</body>
+</html>
