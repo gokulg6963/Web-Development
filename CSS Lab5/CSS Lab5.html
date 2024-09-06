@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			border: 1px solid black;
+			display: grid;
+			grid-template-columns: 60% 40%;
+			height: 100vh;
+		}
+
+		.left {
+			background: rgb(21, 26, 34);
+			color:white;
+		}
+
+		.right {
+			background: rgb(0, 168, 118);
+			font-family: "Roboto", sans-serif;
+			color: white;
+		}
+
+		.left-box {
+			padding: 50px 60px;
+			font-family: "Roboto", sans-serif;
+		}
+
+		.left-box-mid {
+			font-family: "Roboto", sans-serif;
+			font-weight: 100;
+			color: rgb(163, 170, 180);
+			position: relative;
+			top: 170px;
+		}
+
+		.left-box-mid h1{
+			font-weight: 300;
+			color: white;
+			font-size: 40px;
+
+		}
+
+		.reg-head {
+			position: relative;
+			top: 10px;
+			font-weight: 300;
+		}
+
+		.reg-text {
+			position:relative;
+			top: 40px;
+			font-weight: 500;
+		}
+
+		.reg-butn {
+			position: relative;
+			top: 60px;
+			padding: 10px 25px;
+			background-color: rgb(0, 168, 118);
+			color: white;
+			border: 0;
+			border-radius: 8px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+		.left-box-bottom {
+			position: relative;
+			top: 420px;
+			
+		}
+
+		.left-box-bottom b{
+			padding-right: 30px;
+			font-size: 15px;
+			font-weight: 300;
+		}
+
+		.right-box {
+			padding: 250px 100px;
+		}
+
+		.right-box input {
+                width: 85%;
+                padding: 15px 15px 15px 2px;
+                margin-bottom: 20px;
+                background-color: transparent;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+                color: azure;
+                font-size: 1em;
+        }
+
+        .email{
+                margin-top: 20px;
+        }
+        
+        .btn2 {
+			position: relative;
+			padding: 10px 25px;
+			background-color: white;
+			color: rgb(0, 168, 118);
+			border: 0;
+			border-radius: 8px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+        .right-box a{
+            width: 50%;
+            text-decoration: none;
+            color: azure;
+            padding-left: 5%;
+        }
+
+		.login-head {
+			font-size: 30px;
+			font-weight: 250;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<div class="left-box">
+				<img src="https://cosy.erc.edu/assets/my-erc/img/logo-white.png" alt="Company Logo" width="120px" height="auto">
+				<div class="left-box-mid">
+					<h1>Welcome</h1>
+					<p class="reg-head" style="font-size: 20px;">Register for an ERC account here</p>
+					<p class="reg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+						magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+					</p>
+
+					<button class="reg-butn">Register Here</button>
+				</div>
+				<div class="left-box-bottom">
+					<b>Choose Language</b>
+					<b>Help Center</b>
+					<b>ERC Website</b>
+					<b>ERC Webshop</b>
+				</div>
+				
+
+			</div>
+
+			
+		</div>
+		<div class="right">
+			<div class="right-box">
+				<p class="login-head">Or login to your account</p>
+				<p class="email">Your Email</p>
+				<form>
+					<input type="text" class="email" placeholder="Your Email">
+					<input type="password" class="password" placeholder="Password">
+					<button class="btn2">LOGIN</button>
+					<a href="#">Forgot Password</a>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
